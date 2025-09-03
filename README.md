@@ -1,4 +1,5 @@
 
+
 # KNOWLEDGEWAR - Eğitim Platformu
 
   
@@ -196,101 +197,29 @@ KNOWLEDGEWAR, modern teknolojiler kullanarak geliştirilmiş kapsamlı bir eğit
   
 
 ```
-
-  
-
 BTK/
-
-  
-
 ├── app.py # Ana uygulama
-
-  
-
 ├── requirements.txt # Python bağımlılıkları
-
-  
-
 ├── database.db # SQLite veritabanı
-
-  
-
 ├── mypdf.pdf # RAG sistemi için bilgi kaynağı
-
-  
-
 ├── chroma_db/ # Vector database
-
-  
-
 ├── templates/ # HTML şablonları
-
-  
-
 │ ├── index.html # Ana sayfa
-
-  
-
 │ ├── login-register.html #giriş kayıt
-
-  
-
 │ ├── profile.html # Kullanıcı profili
-
-  
-
 │ ├── roadmap.html # Öğrenme yolu
-
-  
-
 │ ├── tournament.html # Turnuva sayfası
-
-  
-
 │ ├── tournament-admin.html
-
-  
-
 │ ├── learn.html # Öğrenme sayfası
-
-  
-
 │ ├── battle.html # Turnuva savaşı
-
-  
-
 │ └── test.html # Test sayfası
-
-  
-
 └── static/ # Statik dosyalar
-
-  
-
 ├── styles.css # Ana stil dosyası
-
-  
-
 ├── profile.css # Profil stilleri
-
-  
-
 ├── script.js # Ana JavaScript
-
-  
-
 ├── profile.js # Profil JavaScript
-
-  
-
-├── chatbot.js # AI asistan
-
-  
-
-└── chatbot.html # Chatbot arayüzü
-
-  
-
+├── chatbot.js # AI asistan  
+└── chatbot.html # Chatbot arayüz 
 ```
 
   
@@ -335,18 +264,10 @@ BTK/
 
   
 
-```bash
-
-  
-
+```bash 
 git  clone <repository-url>
-
   
-
 cd  BTK
-
-  
-
 ```
 
   
@@ -360,17 +281,9 @@ cd  BTK
   
 
 ```bash
-
-  
-
-conda  create  -n  my_env  python=3.10
-
-  
+conda  create  -n  my_env  python=3.10 
 
 conda  activate  my_env
-
-  
-
 ```
 
   
@@ -383,14 +296,8 @@ conda  activate  my_env
 
   
 
-```bash
-
-  
-
+```bas
 pip  install  -r  requirements.txt
-
-  
-
 ```
 
   
@@ -404,27 +311,15 @@ pip  install  -r  requirements.txt
   
 
 ```bash
-
-  
-
 # .env dosyasını oluşturun ve aşağıdaki satırları ekleyin
-
-  
-
 GEMINI_API_KEY=
 
 GOOGLE_SEARCH_API_KEY=
 
 GOOGLE_CSE_ID=778db080ec34d45a5
 
-  
-
 #Google ai studio üzerinden gemini(GEMINI_API_KEY) api key alabilirsiniz
-
 #Google Cloud Console üzerinden (GOOGLE_SEARCH_API_KEY) api key alabilirsiniz.
-
-  
-
 ```
 
   
@@ -438,13 +333,7 @@ GOOGLE_CSE_ID=778db080ec34d45a5
   
 
 ```bash
-
-  
-
 python  app.py
-
-  
-
 ```
 
   ## **🎬️**Proje Videosu
@@ -536,13 +425,7 @@ Proje videosunu izlemek için:
   
 
 ```bash
-
-  
-
 python  app.py  --debug
-
-  
-
 ```
 
   
@@ -574,7 +457,7 @@ Proje hakkında sorularınız için:
 
   
 
-- GitHub: [https://github.com/Kerden22]
+- GitHub: [https://github.com/suleyman-yilmaz]
 
   
 
